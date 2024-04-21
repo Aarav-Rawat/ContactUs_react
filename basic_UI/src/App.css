@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vw;
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 9vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+button{
+  all: unset;
+   padding: 6px 16px;
+  background: red;
+  height: 20px;
+  color: white;
+  font-weight: 500; 
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw;
+}
+
+.btns .sec{
+ background-color: white;
+ color: black;
+ border: 1px solid grey;
+ margin-left: 1vw;
+}
+
+.Left{
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+h3{
+  font-size: 5vw;
+}
+
+.Left img{
+  width: 4vw;
+}
+
+.Right img{
+  width: 40vw;
+}
+
+
+
